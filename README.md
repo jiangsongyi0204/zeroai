@@ -1,2 +1,6 @@
-# zeroai
-learn AI from zero
+# AI入门教学视频项目
+1.适合零基础的小白
+2.利用Excel的数据展示能力，图形化的解释了神经网络结构，学习方法，等细节
+
+## 配套的讲解视频
+https://space.bilibili.com/1466003455
