@@ -197,16 +197,16 @@ for epoch in range(1000):
         y_preds.append(y_pred)
     # 2.计算均方误差损失   
     loss = sum((sum((yt - yp)**2 for yt, yp in zip(y_target, y_pred)) for y_pred, y_target in zip(y_preds, ys)))
-    print(f"Epoch {epoch}. loss: {loss.data}")
     # 3.初始化梯度
     for p in mlp.parameters():
         p.grad = 0.0
     # 4.反向传播
     loss.backward()
     # 5.调整参数
-    learning_rate = 0.02
+    learning_rate = 0.01
     for p in mlp.parameters():
         p.data += -learning_rate * p.grad
+    print(f"Epoch {epoch}. loss: {loss.data}")
 
 print("Final predictions:")
 for x in xs:    
