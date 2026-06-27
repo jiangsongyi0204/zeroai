@@ -26,6 +26,7 @@
 | [AI300.强化学习入门系列](https://www.bilibili.com/video/BV1ni6mBvE38/) | 股票交易模型实例，从原理到实现来解释了强化学习中的经典时序差分算法 |
 | [AI301.AlphaZero入门系列](https://www.bilibili.com/video/BV1FEP9zyEnV/) | 棋类游戏，从原理到实现来解释了强化学习中的经典蒙特卡洛+神经网络算法 |
 | [AI400.扩散模型入门系列](https://www.bilibili.com/video/BV1L3rZBxE8q/) | 实现了Mnist数据生成逻辑 |
+| [AI500.智能体开发入门系列](https://www.bilibili.com/video/BV13EjJ6SESR/) | 用Excel实现一个好玩的智能体 |
 
 ## 创作&授权声明
 - 1.该项目的所有内容都属于作者的原创内容。
